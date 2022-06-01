@@ -1,0 +1,13 @@
+/* Style pour l'historique côté Client */
+
+.ligne{
+    width : 40%;
+}
+
+.historique {
+    border-radius: 20px;
+}
+
+.marginBotP{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,146 @@
+/* Style pour le dashboard côté Admin */
+
+.row{
+    display: flex;
+}
+
+.flex5{
+    flex:5%;
+}
+
+.flex10{
+    flex:10%;
+}
+
+.flex12{
+    flex:12.5%;
+}
+
+.flex20{
+    flex:20%;
+}
+
+.flex205{
+    flex:20.5%;
+}
+.flex21{
+    flex:21%;
+}
+
+.flex25 {
+    flex:25%;
+    flex-wrap: wrap;
+}
+
+.flex60{
+    flex:60%;
+}
+
+.mail {
+    text-align: end;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.dashboard-services-div{
+    height: 35vh;
+    overflow-y: scroll;
+    box-shadow: 5px 5px 15px 0 #c9c9c9;
+}
+
+.dashboard-services-div::-webkit-scrollbar {
+    width: 12px;
+}
+
+.dashboard-services-div::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+
+.dashboard-services-div::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(205deg, #00F0FF 0%, #1E4095 20%, #1E4095 80%, #00F0FF 100%);
+    border-radius: 100px;
+}
+
+.cercle-\#45E92B{
+    background-color: #45E92B;
+}
+.cercle-\#4579FF{
+    background-color: #4579FF;
+}
+.cercle-\#F0F34E{
+    background-color: #F0F34E;
+}
+.cercle-\#F4963E{
+    background-color: #F4963E;
+}
+.cercle-\#F10000{
+    background-color: #F10000;
+}
+
+.couleur-etat-id-1{
+    background-image: linear-gradient(165deg, white 0%, #45E92B 12%, #45E92B 88%, white 100%);
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #c9c9c9;
+    font-size: large;
+}
+.couleur-etat-id-2{
+    background-image: linear-gradient(165deg, white 0%, #4579FF 12%, #4579FF 88%, white 100%);
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #c9c9c9;
+    font-size: large;
+}
+.couleur-etat-id-3{
+    background-image: linear-gradient(165deg, white 0%, #F0F34E 12%, #F0F34E 88%, white 100%);
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #c9c9c9;
+    font-size: large;
+}
+.couleur-etat-id-4{
+    background-image: linear-gradient(165deg, white 0%, #F4963E 12%, #F4963E 88%, white 100%);
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #c9c9c9;
+    font-size: large;
+}
+.couleur-etat-id-5{
+    background-image: linear-gradient(165deg, white 0%, #F10000 12%, #F10000 88%, white 100%);
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #c9c9c9;
+    font-size: large;
+}
+
+.couleur-top-5{
+    background-image: linear-gradient(165deg, #00F0FF 0%, #1E4095 12%, #1E4095 88%, #00F0FF 100%);
+    color: white;
+    display: block;
+    width: 90%;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #c9c9c9;
+    font-size: large;
+}
+
+.table > :not(caption) > * > * {
+    border-bottom-width: 0;
+}

@@ -1,0 +1,18 @@
+/* Style pour les signalements côté Client */
+
+.card1 {
+    box-shadow: inset 0px 0px 6px 2px black;
+    border-radius: 20px ;
+    }
+
+.boite {
+    border: 2px solid #1E4095;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.signal {
+    border: 1px solid #000000;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

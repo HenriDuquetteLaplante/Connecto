@@ -1,0 +1,105 @@
+/* Style pour le nav Admin */
+
+body {
+    height: 100%;
+}
+
+.container100 {
+    margin-top: 100px;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.container-fluid p {
+    padding: 37px 0 0 17px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.mainNav {
+    position: fixed;
+    height: 100vh;
+}
+
+.logo {
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    width: fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+.nav {
+    margin-bottom: 100%;
+}
+
+.notSep {
+    color: whitesmoke;
+    height: 1px;
+    opacity: 0.5;
+}
+
+.titre {
+    position: fixed;
+    background-color: white;
+    padding: 0;
+    z-index: 1;
+}
+
+.separator {
+    border: 2px solid #1E4095;
+    margin: 0;
+    opacity: 1;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+li a.nav-link {
+    color: white;
+    width: fit-content;
+}
+
+.sm {
+    font-size: 14px;
+}
+
+ul:last-of-type {
+    padding: 0;
+}
+
+ul ul li {
+    font-size: 14px;
+}
+
+.arrow {
+    float: right;
+    border: none;
+    color: white;
+    background-color: #1E4095;
+    width: auto;
+}
+
+.user {
+    position: fixed;
+    bottom: 10px;
+    width: 15.8%;
+}
+
+.user a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.is_active {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: none;
+}

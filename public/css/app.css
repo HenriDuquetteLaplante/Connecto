@@ -1,0 +1,72 @@
+@import 'signal.css';
+@import 'historic.css';
+@import 'home_index.css';
+@import 'navAdmin.css';
+@import 'dashAdmin.css';
+@import 'histoAdmin.css';
+@import 'incidents&usersAdmin.css';
+
+
+* {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.loginMain {
+    height: -webkit-fill-available;
+}
+
+main{
+    background-color: #EBEEF3;
+}
+
+footer {
+    height: 20px;
+    padding: 2px;
+}
+
+.footer_client {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+}
+
+/* Bouton utilisateur */
+.btn-primary {
+    background-color: #1E4095;
+}
+
+.photoCircle {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 15%;
+    background-color: #00F0FF;
+    box-shadow: 5px 5px 10px 0 #c9c9c9;
+}
+
+/*Bouton retour (client)*/
+.retour{
+    box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+/**********Login*************/
+
+.corps {
+    height: 86.6%;
+    padding-top: 5%;
+}
+.corpsClient {
+    height: 87.8%;
+    padding-top: 5%;
+}
+
+/*******Portion titres*******/
+
+.titres {
+    margin-bottom: 15px;
+}
+
+.centrer {
+    text-align: center;
+}
